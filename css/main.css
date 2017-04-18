@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+}
+.box {
+	height: 45%
+	width: 45%;
+	display: inline-block;
+}
+.pink {
+	background-color: pink;
+}
+.blue {
+	background-color: blue;
+}
+.black {
+	background-color: black;
+}
+.purple {
+	background-color: purple;
+}
+@media (min-width: 600px;) {
+	.blue .black {
+		display: none;
+	}
+}
+@media (max-width: 1000px;) {
+	body {
+		width: 100%;
+	}
+}
