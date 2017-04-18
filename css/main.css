@@ -2,7 +2,7 @@ body {
 	text-align: center;
 }
 .box {
-	height: 45%
+	height: 200px;
 	width: 45%;
 	display: inline-block;
 }
@@ -18,13 +18,13 @@ body {
 .purple {
 	background-color: purple;
 }
-@media (min-width: 600px;) {
-	.blue .black {
+@media (max-width: 600px) {
+	.blue, .black {
 		display: none;
 	}
 }
-@media (max-width: 1000px;) {
-	body {
+@media (min-width: 1000px) {
+	.box {
 		width: 100%;
 	}
 }
